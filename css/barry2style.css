@@ -1,0 +1,107 @@
+/* I'm using Andy's CSS for this part of the lesson, CSS file in "hex", what is hex, Andy? */
+h1 {
+	text-align: center;
+	color: #0a1b66;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: auto;
+}
+/* change to a nicer font */
+body {
+    font-family: Helvetica;
+    border: 1px solid green;
+    background-color: gray;
+    font-size: 1em;
+}
+
+/* the border-radius attribute makes
+the corners rounded and the margin
+clears out space for the stuff inside
+the lesson divs. */
+
+.lesson {
+    background-color: #ced1d6;
+    border-radius: 5px;
+    color: red;
+    padding: 10px; 
+}
+
+/* margins push other elements away */
+h2 {
+    margin: 10px;
+}
+
+.concept {
+    background-color: #f5fafa;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept_title {
+    font-size: 23px;
+    margin: 8px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+.concept_description {
+    font-weight: lighter;
+    margin: 6px;
+    line-height: 1.4em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+span.code {
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 2px 4px;
+    font-weight: small;
+}
+.blue {
+	color: blue;
+}
+.top_navi {
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+a:link {
+    text-decoration: none; /* This line helps to remove the underlines from the links */
+}
+a:hover {
+    color: red; /* This line makes the link turn red when you mouse over it */
+}
+p.indent { /* This code will indent the paragragh, and display as a block */
+    display: inline-block;
+    margin-left: 2em;
+    line-height: 1.2em;
+}
+  /* for line indent
+<p class="first">
+  .first {
+  text-indent: 2em;
+}
+</p>
+<p class="second">
+  .second {
+  text-indent: -2em;
+}
+</p> */
+ul { /* This removes the black dots at the beginning of the line of our list
+        other properties - circle, disc, square */
+    list-style-type: none;
+}
